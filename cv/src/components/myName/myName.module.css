@@ -1,0 +1,13 @@
+.myName{
+    
+display: flex;
+justify-content: space-between;
+    }
+    .text1{
+        margin-top: 10px;
+        color:rgba(134, 132, 135, 1.00);
+    }
+    .text2{
+        margin-top: 10px;
+        color:rgba(252, 255, 255, 1.00) ;
+    }

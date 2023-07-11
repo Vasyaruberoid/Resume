@@ -1,0 +1,20 @@
+.button{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 35px;
+    background: rgba(131, 38, 253, 1.00);
+}
+@media screen and (max-width:1024px){
+    .button{
+        width: 80px;
+        height: 20px;
+        margin-left: -130px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .button{
+        display: none;
+        }
+}

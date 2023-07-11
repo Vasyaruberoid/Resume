@@ -1,0 +1,48 @@
+.menu_item{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.burger_btn{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 40px;
+  top: 36px; 
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.menu_bar{
+  background-color: rgba(134, 132, 135, 1.00);
+}
+
+
+.text{
+  margin-right: 650px;
+  color: rgba(252, 255, 255, 1.00);
+}
+@media screen and (max-width:480px){
+  .burger_btn{
+    position: absolute;
+    margin-top: -7.5px;
+    width: 25px;
+    height: 25px;
+  }
+.text{
+margin-right: 160px;
+}
+.bm-overlay{
+width: 300px;
+}
+.wrap{
+  width: 300px;
+  margin-left: -180px;
+}
+.menu_burger{
+  margin-left: -400px;
+}
+.list_burger{
+  width: 200px;
+}
+
+}

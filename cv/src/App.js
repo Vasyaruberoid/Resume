@@ -1,14 +1,16 @@
 import './syles/App.css';
-import React from 'react';
+import  React from 'react';
 import MainPage from './components/Page/mainPage';
 
-function App() {
 
-  
+
+
+function App() {
+ 
   return (
- <div className='body'>
-  <MainPage/>
- </div>
+<>
+    <MainPage/>
+</> 
   );
 }
 

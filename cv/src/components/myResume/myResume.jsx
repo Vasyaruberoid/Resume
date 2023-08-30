@@ -1,9 +1,15 @@
 import React from 'react';
 import cl from './myResume.module.css';
+import {useSpring, animated } from '@react-spring/web';
 
 const MyResume = () => {
+
+  const spring = useSpring({
+    from: { y: 50 },
+    to: { y: 0 },
+  })
   return (
-    <div className={cl.container}>
+    <animated.div style={{...spring}} className={cl.container}>
       <div className={cl.wrapper}> 
       <h2 className={cl.text1}>About</h2>
        <h2 className={cl.text2}>Resume</h2>
@@ -13,7 +19,7 @@ const MyResume = () => {
        I'm 27 years old, without true habits, the desire to develop constantly.
         I always try to improve my skills and not sleep-
 up to date with the latest developments</p>
-    </div>
+    </animated.div>
   )
 }
 

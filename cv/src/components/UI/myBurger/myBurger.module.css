@@ -1,48 +1,99 @@
+a{
+  color: white;
+}
 .menu_item{
   color: white;
   text-decoration: none;
   font-size: 2rem;
+  cursor: pointer;
+  background: none;
+  border: none;
 }
+
 .burger_btn{
   position: absolute;
   width: 20px;
   height: 20px;
-  right: 40px;
-  top: 36px; 
-  margin-right: 10px;
+  right: 20px;
+  top: 23px; 
+  margin-right: 15px;
   margin-top: 5px;
 }
+
+.burger_cross{
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.5;
+}
+
+.burger_cross:hover {
+  opacity: 1;
+}
+.burger_cross:before, .burger_cross:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: white;
+}
+.burger_cross:before {
+  transform: rotate(45deg);
+}
+.burger_cross:after {
+  transform: rotate(-45deg);
+}
+
+.wrapper{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-size: 1.1rem;
+}
+
+
 .menu_bar{
   background-color: rgba(134, 132, 135, 1.00);
 }
 
-
 .text{
-  margin-right: 650px;
+  position: absolute;
+  margin-top: 15px;
+margin-left: 25px;
   color: rgba(252, 255, 255, 1.00);
+}
+
+@media screen and (max-width:1024px){
+  .text{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .text{
+    margin-left: 20px;
+    margin-top: 8px;
+  }
+  .burger_btn{
+    position: absolute;
+    margin-top: 1px;
+  }
 }
 @media screen and (max-width:480px){
   .burger_btn{
     position: absolute;
-    margin-top: -7.5px;
-    width: 25px;
-    height: 25px;
+    margin-top: -5px;
+    width: 20px;
+    height: 20px;
   }
 .text{
-margin-right: 160px;
+margin-top: 2px;
 }
-.bm-overlay{
-width: 300px;
-}
-.wrap{
-  width: 300px;
-  margin-left: -180px;
-}
-.menu_burger{
-  margin-left: -400px;
-}
-.list_burger{
-  width: 200px;
-}
+
 
 }

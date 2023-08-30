@@ -1,6 +1,7 @@
 import {useMemo} from 'react';
 import cl from './myBased.module.css';
 import {GoogleMap, useLoadScript, Marker} from '@react-google-maps/api';
+import {useSpring, animated } from '@react-spring/web';
 
 const MyBased = ()=> {
   const {isLoaded} = useLoadScript({
@@ -13,9 +14,12 @@ const MyBased = ()=> {
 
 const Map = () => {
   const center = useMemo(() => ({lat:52.129272, lng:26.07467}),[]); 
-
+  const spring = useSpring({
+    from: { x: 50 },
+    to: { x: 0 },
+  })
   return (
-    <div>
+    <animated.div style={{...spring}}>
       <div className={cl.wrapper}>
         <h2 className={cl.text1}>My Based:</h2>
         <h2 className={cl.text2}>Pinsk</h2>
@@ -26,7 +30,7 @@ const Map = () => {
   mapContainerClassName={cl.container}>
     <Marker position={center}/>
   </GoogleMap>
-  </div>
+  </animated.div>
   
   )
 }

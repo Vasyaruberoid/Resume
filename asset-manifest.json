@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.10ec6c32.css",
-    "main.js": "/Resume/static/js/main.933eaed5.js",
-    "static/media/photo.jpg": "/Resume/static/media/photo.272dedbf41759b12b33f.jpg",
-    "static/media/shop-flowers.jpg": "/Resume/static/media/shop-flowers.4e251b18833dfa7c5748.jpg",
+    "main.css": "/Resume/static/css/main.3b005036.css",
+    "main.js": "/Resume/static/js/main.2869c02b.js",
+    "static/media/BikeShop.png": "/Resume/static/media/BikeShop.121f609ccbdf3390ca1a.png",
+    "static/media/photo.jpg": "/Resume/static/media/photo.dbff66961813b68891eb.jpg",
     "static/media/calendar.jpg": "/Resume/static/media/calendar.10ce084e2d3624221f26.jpg",
     "static/media/Calc.jpg": "/Resume/static/media/Calc.7133481ebd1c697fd835.jpg",
     "index.html": "/Resume/index.html",
-    "main.10ec6c32.css.map": "/Resume/static/css/main.10ec6c32.css.map",
-    "main.933eaed5.js.map": "/Resume/static/js/main.933eaed5.js.map"
+    "main.3b005036.css.map": "/Resume/static/css/main.3b005036.css.map",
+    "main.2869c02b.js.map": "/Resume/static/js/main.2869c02b.js.map"
   },
   "entrypoints": [
-    "static/css/main.10ec6c32.css",
-    "static/js/main.933eaed5.js"
+    "static/css/main.3b005036.css",
+    "static/js/main.2869c02b.js"
   ]
 }

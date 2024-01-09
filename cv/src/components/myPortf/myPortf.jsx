@@ -2,7 +2,7 @@ import {useState} from 'react';
 import cl from './myPortf.module.css';
 import Modal from '../UI/Modal/Modal';
 import calc from '../icons/Calc.jpg';
-import flowers from '../icons/shop-flowers.jpg';
+import flowers from '../icons/BikeShop.png';
 import calendar from '../icons/calendar.jpg';
 import {useSpring, animated } from '@react-spring/web';
 
@@ -34,10 +34,10 @@ const modal2 = (
 <div 
   className={cl.modal} 
   onClick={()=> setOpenSecond(true)}>
-    <h1 className={cl.title}>Shop flowers</h1>
-    <img src={flowers} className={cl.photo_modal} alt='flowers'></img>
+    <h1 className={cl.title}>Bike Shop</h1>
+    <img src={flowers} className={cl.photo_modal} alt='bikeShop'></img>
     <h3 className={cl.descr}>
-    Interesting shop for flowers,based on react <a href='/'>click here</a></h3>
+    Interesting shop for bike,based on react <a href='https://vasyaruberoid.github.io/BikeShop/'>click here</a></h3>
     </div>
 )
 const modal3 = (

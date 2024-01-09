@@ -3,7 +3,7 @@
     margin: 0;
 }
 .layout{
- background:whitesmoke;
+ background:black;
  width: 100%;
   height: 100vh;
   display: grid;
@@ -63,6 +63,7 @@ margin-left: -155px;
 }
 
 .Img{
+
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
